@@ -1,0 +1,176 @@
+{
+    "labels": [
+        {
+            "id": 0,
+            "name": "red and white circle 20 kph speed limit"
+        },
+        {
+            "id": 1,
+            "name": "red and white circle 30 kph speed limit"
+        },
+        {
+            "id": 2,
+            "name": "red and white circle 50 kph speed limit"
+        },
+        {
+            "id": 3,
+            "name": "red and white circle 60 kph speed limit"
+        },
+        {
+            "id": 4,
+            "name": "red and white circle 70 kph speed limit"
+        },
+        {
+            "id": 5,
+            "name": "red and white circle 80 kph speed limit"
+        },
+        {
+            "id": 6,
+            "name": "end / de-restriction of 80 kph speed limit"
+        },
+        {
+            "id": 7,
+            "name": "red and white circle 100 kph speed limit"
+        },
+        {
+            "id": 8,
+            "name": "red and white circle 120 kph speed limit"
+        },
+        {
+            "id": 9,
+            "name": "red and white circle red car and black car no passing"
+        },
+        {
+            "id": 10,
+            "name": "red and white circle red truck and black car no passing"
+        },
+        {
+            "id": 11,
+            "name": "red and white triangle road intersection warning"
+        },
+        {
+            "id": 12,
+            "name": "white and yellow diamond priority road"
+        },
+        {
+            "id": 13,
+            "name": "red and white upside down triangle yield right-of-way"
+        },
+        {
+            "id": 14,
+            "name": "stop"
+        },
+        {
+            "id": 15,
+            "name": "empty red and white circle"
+        },
+        {
+            "id": 16,
+            "name": "red and white circle no truck entry"
+        },
+        {
+            "id": 17,
+            "name": "red circle with white horizonal stripe no entry"
+        },
+        {
+            "id": 18,
+            "name": "red and white triangle with exclamation mark warning"
+        },
+        {
+            "id": 19,
+            "name": "red and white triangle with black left curve approaching warning"
+        },
+        {
+            "id": 20,
+            "name": "red and white triangle with black right curve approaching warning"
+        },
+        {
+            "id": 21,
+            "name": "red and white triangle with black double curve approaching warning"
+        },
+        {
+            "id": 22,
+            "name": "red and white triangle rough / bumpy road warning"
+        },
+        {
+            "id": 23,
+            "name": "red and white triangle car skidding / slipping warning"
+        },
+        {
+            "id": 24,
+            "name": "red and white triangle with merging / narrow lanes warning"
+        },
+        {
+            "id": 25,
+            "name": "red and white triangle with person digging / construction / road work warning"
+        },
+        {
+            "id": 26,
+            "name": "red and white triangle with traffic light approaching warning"
+        },
+        {
+            "id": 27,
+            "name": "red and white triangle with person walking warning"
+        },
+        {
+            "id": 28,
+            "name": "red and white triangle with child and person walking warning"
+        },
+        {
+            "id": 29,
+            "name": "red and white triangle with bicyle warning"
+        },
+        {
+            "id": 30,
+            "name": "red and white triangle with snowflake / ice warning"
+        },
+        {
+            "id": 31,
+            "name": "red and white triangle with deer warning"
+        },
+        {
+            "id": 32,
+            "name": "white circle with gray strike bar no speed limit"
+        },
+        {
+            "id": 33,
+            "name": "blue circle with white right turn arrow mandatory"
+        },
+        {
+            "id": 34,
+            "name": "blue circle with white left turn arrow mandatory"
+        },
+        {
+            "id": 35,
+            "name": "blue circle with white forward arrow mandatory"
+        },
+        {
+            "id": 36,
+            "name": "blue circle with white forward or right turn arrow mandatory"
+        },
+        {
+            "id": 37,
+            "name": "blue circle with white forward or left turn arrow mandatory"
+        },
+        {
+            "id": 38,
+            "name": "blue circle with white keep right arrow mandatory"
+        },
+        {
+            "id": 39,
+            "name": "blue circle with white keep left arrow mandatory"
+        },
+        {
+            "id": 40,
+            "name": "blue circle with white arrows indicating a traffic circle"
+        },
+        {
+            "id": 41,
+            "name": "white circle with gray strike bar indicating no passing for cars has ended"
+        },
+        {
+            "id": 42,
+            "name": "white circle with gray strike bar indicating no passing for trucks has ended"
+        }
+    ]
+}
