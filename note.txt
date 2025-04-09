@@ -48,6 +48,16 @@ Epoch 15/15: 100%|████████████████████�
 Epoch [15/15], Validation Loss: 0.3986
 EarlyStopping counter: 2 out of 3
 -------------------------------------------------------------------------------------------------------------------------------------
+Top 5 Misclassified Pairs (True -> Predicted, Count):
+Class 2 -> Class 1: 35 times
+Class 1 -> Class 2: 33 times
+Class 4 -> Class 8: 32 times
+Class 5 -> Class 3: 32 times
+Class 7 -> Class 8: 30 times
+
+Average Intra-Class Cosine Similarity: 0.6514
+Average Inter-Class Cosine Similarity: 0.5963
+Number of misclassified samples: 965
 Accuracy: 0.8769
 Classification Report:
               precision    recall  f1-score   support
