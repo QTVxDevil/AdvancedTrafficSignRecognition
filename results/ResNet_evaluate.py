@@ -91,7 +91,37 @@ def evaluate_resnet():
     print("\nTop 5 Misclassified Pairs (True -> Predicted, Count):")
     for true, pred, count in misclassified_pairs:
         print(f"Class {true} -> Class {pred}: {count} times")
-        
+    
+    # confusion matrix for top 5 misclassified pairs
+    unique_classes = set()
+    for true, pred, _ in misclassified_pairs:
+        unique_classes.add(true)
+        unique_classes.add(pred)
+    
+    unique_classes = sorted(list(unique_classes))
+    size = len(unique_classes)
+    misclassified_cfm = np.zeros((size, size), dtype=int)
+    cls_new = {cls: idx for idx, cls in enumerate(unique_classes)}
+    
+    for i in range(NUM_CLASSES):
+        for j in range(NUM_CLASSES):
+            if i in unique_classes and j in unique_classes:
+                new_i = cls_new[i]
+                new_j = cls_new[j]
+                misclassified_cfm[new_i, new_j] = cfm[i, j]
+                
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(misclassified_cfm, annot=True, fmt='d', cmap='Blues',
+                xticklabels=[str(cls) for cls in unique_classes],  
+                yticklabels=[str(cls) for cls in unique_classes])
+    plt.title("Confusion Matrix for Top Misclassified")
+    plt.xlabel("Predicted Label")
+    plt.ylabel("True Label")
+    misclassified_cfm_path = os.path.join(RESNET_FIGURE_PATH, 'misclassified_cfm.png') 
+    plt.savefig(misclassified_cfm_path)
+    plt.close()
+    print(f"Misclassified CFM saved as PNG to {misclassified_cfm_path}")
+    
     # Cosine Similarity
     similarity_matrix = cosine_similarity(all_embeddings)
     intra_class_sim = []
